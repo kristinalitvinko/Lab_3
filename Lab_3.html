@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="lab_3.css">
+</head>
+<body>
+    <div class="content1">         
+    <ul class="ul_cls1">
+        <li class="li_cls1">  <p class="p1"> <a href="#" id="i1"></a> <br> <big> 1. Streamer cofiguration </big></p> </li>
+        <li class="li_cls1">  <p class="p1"> <a href="#" id="i2"></a> <br> <big> 2. Your personal details </big></p></li>
+        <li class="li_cls1">  <p class="p1"> <a href="#" id="i3"></a> <br> <big> 3. Payment method </big></p></li>
+    </ul>
+    </div>
+    <br>
+ 
+
+ 
+<div class="mblock">
+    <div class="block1">
+        <div class="tblock1"><h3>Choose your payment method</h3></div>        
+<form>
+            <div class="pay">
+                <div class="paypal">
+                    <label>
+                    <input type="radio"  value="figma"  name="tech" /> Paypal 
+                        <div class="iconpay"></div>
+                            <p><font size="2">Safe payment online.Credit card needed. 
+                            <br>PayPal account is not necessary</font></p>
+                    </label>
+                </div>
+
+                <div class="card">
+                    <label>
+                    <input type="radio"  value="figma"  name="tech"/> Credit Card 
+                        <div class="cardicon"></div>
+                            <p> <font size="2">Safe money transfer using your bank account. 
+                            <br>Visa, maestro, discover, american express.</font></p>
+                    </label>
+                </div>
+   
+
+                <div class="creditcard">
+                    <p><font size="1"><strong>CREDIT CARD NUMBER</strong></font></p>
+                    <input type="text" name="card" id="cardinput" maxlength="16" placeholder=" "pattern="[0-9]{16}"/>
+                </div>
+
+                <div class="cvv">
+                    <p><font size="1"><strong>CVV CODE</strong></font>
+                    <a href="sample.html"><img src="img/circle.png" width="12" height="15"></a></p>
+                    <input type="password" name="CVV" id="cardcvv"maxlength="3"placeholder=" "pattern="[0-9]{3}"/>
+                </div>
+ 
+                <div class="expirydate">
+                    <p><font size="1"><strong>EXPIRY DATE</strong></font></p>
+                    <input type="text" name="DATE" id="carddate" maxlength="5" placeholder="MM/YY" pattern="\d{2}[\/]\d{2}"/>
+                </div>
+  
+                <div class="cardname">
+                    <p><font size="1"><strong>NAME ON CARD</strong></font></p>
+                    <input type="text" name="OWNER" id="cardname" pattern="^[A-Z\s]+$"placeholder=" "/>
+                </div>
+  
+            </div>
+    </div>
+
+
+
+    <div class="block2">
+        <div class="tblock2"><h3>Summary</h3>
+        </div>
+            <div class="summ">
+                <div class="text1">
+                    <ul>
+                        <li><p>Packet: <strong> Full package (100+ channels)</strong></p>
+                        <li><p>Duration: <strong>3m.</strong></p>
+                    </ul>
+                </div>
+
+                <div class="text2">
+                    <p class="left">Translations:</p>
+                    <p class="right"> € 159.99</p>
+                    <p class="left">Discount for points:</p>
+                    <p class="right">€ 0.00</p>
+                    <p class="left">Gift card discount:</p>
+                    <p class="right">€ 0.00</p>
+                </div>
+
+                <div class="text3">
+                    <p class="left"><a href="2.html" style="color: #1fad41; "><font size="2">Have a discount code?</font></a></p> 
+                    <p class="right"><font size="5" color="#4cdb6e;">€ 159.99</font></p>
+                </div>
+
+
+
+                <div class="endtext">
+                    <div class="endtext1">
+                        <div class="textbox1"><img src="img/box.png" width="35px" height="45px">
+                        </div>
+                        
+                        <p><font size="2"> <strong>Striming box shiping information</strong></font>
+                        <font size="2" color="grey">
+                        <br>Lorem Ipsumas their default model text, and a serach for 'lorem ipsum' &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp   will uncover many web.</p></font>
+                    </div>
+
+                    <div class="endtext2">
+                        <div class="textbox2"><img src="img/wallet.png" width="35px" height="50px">
+                        </div>
+                        <p><font size="2"> <strong>30 days money back guarantee</strong></font>
+                        <font size="2" color="grey">
+                        <br>Contrary to poppular belief, Lorem Ipsum is not simply random.</p></font>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+
+
+<footer>
+    <div class="goback">
+        <button button type="reset"><strong>GO BACK</strong></button>
+    </div>
+
+    <div class="checkout">
+        <button type="submit" formmethod="get" formaction="index.html"><strong>CHECK OUT ➔</strong></button>
+    </div> 
+
+    <div class="text">
+        <p style="text-indent: 170px;"><font size="1">By clicking check out buttom you agree with our terms and conditions and money back gurantee.Thank you fo trusting our service</font></p>
+    </div>
+
+</form>
+
+</body>
+</html>  
